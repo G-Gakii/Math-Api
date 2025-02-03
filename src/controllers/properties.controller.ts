@@ -7,8 +7,7 @@ const getProperties = (num: number) => {
   let properties = [];
   if (num % 2 === 0) properties.push("even");
   if (num % 2 !== 0) properties.push("odd");
-  if (isPrime(num)) properties.push("prime");
-  if (isPerfect(num)) properties.push("perfect");
+
   if (
     num ===
     numStr
